@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/icaminajatt/react/static/css/main.ef075884.chunk.css",
+    "main.js": "/icaminajatt/react/static/js/main.f7198dc8.chunk.js",
+    "main.js.map": "/icaminajatt/react/static/js/main.f7198dc8.chunk.js.map",
+    "runtime-main.js": "/icaminajatt/react/static/js/runtime-main.586a7636.js",
+    "runtime-main.js.map": "/icaminajatt/react/static/js/runtime-main.586a7636.js.map",
+    "static/css/2.f1b50ea8.chunk.css": "/icaminajatt/react/static/css/2.f1b50ea8.chunk.css",
+    "static/js/2.34d4d793.chunk.js": "/icaminajatt/react/static/js/2.34d4d793.chunk.js",
+    "static/js/2.34d4d793.chunk.js.map": "/icaminajatt/react/static/js/2.34d4d793.chunk.js.map",
+    "index.html": "/icaminajatt/react/index.html",
+    "precache-manifest.8977d968de64df1eb71c2bfa0747139d.js": "/icaminajatt/react/precache-manifest.8977d968de64df1eb71c2bfa0747139d.js",
+    "service-worker.js": "/icaminajatt/react/service-worker.js",
+    "static/css/2.f1b50ea8.chunk.css.map": "/icaminajatt/react/static/css/2.f1b50ea8.chunk.css.map",
+    "static/css/main.ef075884.chunk.css.map": "/icaminajatt/react/static/css/main.ef075884.chunk.css.map",
+    "static/js/2.34d4d793.chunk.js.LICENSE.txt": "/icaminajatt/react/static/js/2.34d4d793.chunk.js.LICENSE.txt",
+    "static/media/catchall.jpg": "/icaminajatt/react/static/media/catchall.520dc915.jpg",
+    "static/media/college.png": "/icaminajatt/react/static/media/college.202e8419.png",
+    "static/media/elem.png": "/icaminajatt/react/static/media/elem.e55b4b52.png",
+    "static/media/gif.gif": "/icaminajatt/react/static/media/gif.92af125f.gif",
+    "static/media/gss.png": "/icaminajatt/react/static/media/gss.bc3cdf7e.png",
+    "static/media/hobby.JPG": "/icaminajatt/react/static/media/hobby.0520a1e2.JPG",
+    "static/media/hs.png": "/icaminajatt/react/static/media/hs.37d893a3.png",
+    "static/media/logo.png": "/icaminajatt/react/static/media/logo.278cd5a2.png",
+    "static/media/pr.png": "/icaminajatt/react/static/media/pr.97965824.png",
+    "static/media/twitter.png": "/icaminajatt/react/static/media/twitter.c228a51f.png",
+    "static/media/user.jpg": "/icaminajatt/react/static/media/user.87dfd73c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.586a7636.js",
+    "static/css/2.f1b50ea8.chunk.css",
+    "static/js/2.34d4d793.chunk.js",
+    "static/css/main.ef075884.chunk.css",
+    "static/js/main.f7198dc8.chunk.js"
+  ]
+}
