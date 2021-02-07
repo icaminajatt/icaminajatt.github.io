@@ -1,0 +1,121 @@
+* body html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+}
+
+/* likes */
+.like-col-2 h4 {
+    font-family: 'Charm', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.like-col-2 ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 15px;
+}
+.pol-container p {
+    font-family: 'Architects Daughter', cursive !important;
+}
+
+.like-col-2 a {
+    text-decoration: none;
+    color: rgb(4, 146, 165);
+}
+
+/* end of fonts */
+
+.title {
+    text-align: center;
+    color: #04365f;
+    margin-left: 0%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.divider {
+    background: linear-gradient(to right,#04365f, #0195c2);
+    height: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+/* HOBBIES */
+
+.likeMe {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.likeMe img{
+    text-align: center;
+    width: 100%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.likeRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+.like-col-2 h4 {
+    color: #707070;
+}
+.like-col-2 {
+    position: relative;
+    flex-basis: 400%;
+    align-items: center;
+    margin-right: 5%;
+    margin-top: -5%;
+}
+
+.like-col-2 h2 {
+    color: #02304b; 
+}
+
+.like-col-2 a {
+    text-decoration: none;
+}
+
+.polaroid {
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.pol-container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 700px) {
+
+    .like-col-2 {
+        margin-bottom: 20px;
+    }
+
+    .likeMe .pic {
+        width: 100%;
+        text-align: center;
+    }
+
+    .likeMe {
+        width: 100%;
+    }
+    .likeRow {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .title::after {
+        display: none;
+        }
+    }

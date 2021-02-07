@@ -1,0 +1,182 @@
+* body html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+}
+
+/* about */
+
+.about-col-2 h4 {
+    font-family: 'Charm', cursive;
+}
+
+.about-col-2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.greet {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+/* end of fonts */
+
+.container {
+    width: 100%;
+    min-height: 65vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.info-pic {
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.aboutMe {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.aboutMe img{
+    text-align: center;
+    width: 60%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-col-2 a {
+    text-decoration: none;
+    color:  #0195c2 
+}
+
+.about-col-2 a:hover {
+    color: #04365f;
+}
+.about-col-2 h4 {
+    color: #707070;
+}
+
+.about-col-2 p span {
+    font-style: italic; 
+}
+.about-col-2 {
+    position: relative;
+    flex-basis: 60%;
+    align-items: center;
+}
+
+.who {
+    color: #02304b; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.about-col-2 p {
+    margin-top: 15px;
+}
+.about-col-2::after {
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(#04365f, #0195c2);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+.aboutRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 20px;
+    background: rgb(235, 230, 230);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.skills-col {
+    flex: 20%;
+}
+
+.checked {
+    color: #04365f;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 700px) {
+
+    .about-col-2 {
+        margin-bottom: 20px;
+    }
+
+    .about-col-2 h4{
+        margin-top: 20px;
+    }
+
+    .about-col-2 p{
+        margin-top: 5px;
+    }
+
+    .aboutMe .pic {
+        width: 100;
+        text-align: center;
+    }
+
+    .aboutRow {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .disp-info h2 {
+        text-align: justify;
+    }
+
+    .disp-pic {
+        margin-top: 0;
+    }
+    .info-row{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .skills-col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+    }
+}

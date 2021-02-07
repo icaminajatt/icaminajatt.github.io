@@ -1,0 +1,89 @@
+* body html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+}
+
+/* funfacts */
+
+.fun-col-2 h4 {
+    font-family: 'Charm', cursive;
+}
+
+.fun-col-2 li, summary {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 15px;
+}
+
+li span {
+    color: rgb(11, 175, 134);
+}
+
+.title {
+    text-align: center;
+    color: #04365f;
+    margin-left: 0%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.divider {
+    background: linear-gradient(to right,#04365f, #0195c2);
+    height: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.funMe img{
+    text-align: center;
+    width: 60%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.funRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+.fun-col-2 h4 {
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fun-col-2 {
+    position: relative;
+    flex-basis: 60%;
+    align-items: center;
+}
+
+.fun-col-2 h2 {
+    color: #02304b; 
+}
+
+.fun-col-2 a {
+    text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 700px) {
+
+    /* fun facts */
+    .fun-col-2 {
+        margin-bottom: 20px;
+    }
+
+    .funMe .pic {
+        width: 100%;
+        text-align: center;
+    }
+
+    .funRow {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+}
